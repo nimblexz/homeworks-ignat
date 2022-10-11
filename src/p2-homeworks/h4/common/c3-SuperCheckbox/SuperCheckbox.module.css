@@ -14,9 +14,11 @@
 
 .checkbox:checked {
     appearance: none;
-    
+background-image: url("Vector-Green-Tick-PNG-Free-Download.png");
 }
-
+.checkbox:focus{
+    outline: burlywood solid 2px;
+}
 .spanClassName {
 
 }
