@@ -1,0 +1,25 @@
+.radio{
+    appearance: none;
+    height: 10px;
+    width: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    outline: none;
+    background: rebeccapurple;
+    opacity: 40%;
+
+}
+.radio:hover{
+    border: 1.5px solid #d4dae0;
+
+}
+.radio:checked{
+    background: rebeccapurple;
+    opacity: 100%;
+}
+.radio:focus{
+    border: 2px solid rebeccapurple;
+}
+.label{
+    cursor: pointer;
+}
