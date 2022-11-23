@@ -17,8 +17,9 @@ beforeEach(() => {
 test('sort name up', () => {
     const newState = homeWorkReducer(initialState, {type: 'sort', payload: 'up'})
 
-    console.log(newState)
-    // expect(...).toBe(...)
+
+    expect(newState[0].name).toBe('Александр')
+    expect(newState[3].age).toBe('Александр')
 })
 test('sort name down', () => {
     const newState = homeWorkReducer(initialState, {type: 'sort', payload: 'down'})
